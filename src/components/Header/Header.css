@@ -1,0 +1,126 @@
+/* HEADER START */
+.header {
+    background-image: url(../../crypto-images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 0;
+}
+
+.header-main-col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main-col .col-1 {
+    width: 50%;
+}
+
+.header-main-col .col-2 {
+    width: 50%;
+}
+
+.header-main-col h1 {
+    max-width: 688px;
+}
+
+.header-main-col .paragraph {
+    max-width: 410px;
+    padding-bottom: 1.3em;
+}
+
+
+.discount-col {
+    display: flex;
+    max-width: 365px;
+    background-color: #5C59A533;
+    border-radius: 50px;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.discount-col p {
+    margin: 0;
+    padding: 0;
+}
+
+.discount-code {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 40%;
+    font-size: .8rem;
+    color: #0D0D2B;
+    font-weight: 800;
+    text-align: center;
+}
+
+.discount-code-promo {
+    width: 60%;
+    font-size: .8rem;
+    text-align: center;
+
+}
+
+.discount-col p {
+    padding: .3em 0;
+}
+
+.discount-code p {
+    padding-left: 3em;
+}
+
+/* HEADER END */
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    .header {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6em 0 0;
+    }
+
+    .header-main-col {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-main-col .col-1 {
+        width: 100%;
+    }
+
+    .header-main-col .col-2 {
+        width: 100%;
+    }
+
+    .header-main-col h1 {
+        max-width: 588px;
+    }
+
+    .header-main-col .paragraph {
+        max-width: 350px;
+        padding-bottom: 1.3em;
+    }
+
+
+    .discount-col {
+        display: flex;
+        max-width: 300px;
+    }
+
+}

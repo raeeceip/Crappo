@@ -1,0 +1,40 @@
+/* EARNINGS */
+
+.earnings {
+    background-color: #0D0D2B;
+    text-align: center;
+    padding-bottom: 7em;
+    width: 100%;
+
+}
+
+.earnings .col {
+    margin: 0 auto;
+}
+
+.earnings h2 {
+    max-width: 700px;
+}
+
+
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    /* EARNINGS */
+
+    .earnings {
+        background-color: #0D0D2B;
+        text-align: center;
+        padding-bottom: 7em;
+        width: 100%;
+
+    }
+
+    .earnings .col {
+        margin: 0 auto;
+    }
+
+}

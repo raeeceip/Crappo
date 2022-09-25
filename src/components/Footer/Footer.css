@@ -1,0 +1,240 @@
+.footer {
+    /* background-image: url(/crypto-imageS/); */
+    background-color: #0D0D2B;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0 6em;
+    color: #fff;
+
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1.8em;
+}
+
+.footer-col {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-col .col-1 {
+    width: 30%;
+}
+
+.footer-col .col-2 {
+    width: 20%;
+}
+
+.footer-col .col-3 {
+    width: 25%;
+}
+
+.footer-col .col-4 {
+    width: 30%;
+}
+
+.footer h3 {
+    padding: 0 0 1em;
+    margin: 0;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    /* display: flex;
+    justify-content: end; */
+}
+
+footer li {
+    margin-bottom: 1em;
+    font-size: .9rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: .25em 0;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #3671E9;
+}
+
+.crappo-logo {
+    padding: 0;
+    margin: 0;
+}
+
+.brand-logo {
+    max-width: 72px;
+    margin-right: .6em;
+}
+
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1202px;
+    padding-top: 5em;
+}
+
+.footer-end .col-1 {
+    width: 50%;
+}
+
+.footer-end .col-2 {
+    width: 50%;
+    text-align: end;
+}
+
+.footer-end .col-2 img {
+    margin: 0 .9em;
+}
+
+
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    .footer {
+        /* background-image: url(/crypto-imageS/); */
+        background-color: #0D0D2B;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5em 0 6em;
+        color: #fff;
+
+    }
+
+    .footer h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1.8em;
+    }
+
+    .footer-col {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-col .col-1 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-2 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-3 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        padding: 0 0 1em;
+        margin: 0;
+    }
+
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+        /* display: flex;
+    justify-content: end; */
+    }
+
+    footer li {
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        padding: .25em 0;
+    }
+
+    footer a:hover,
+    footer a:focus {
+        color: #3671E9;
+    }
+
+    .crappo-logo {
+        padding: 0;
+        margin: 0;
+    }
+
+    .brand-logo {
+        max-width: 72px;
+        margin-right: .6em;
+    }
+
+
+    .footer-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1202px;
+        padding-top: 5em;
+    }
+
+    .footer-end .col-1 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 4em;
+    }
+
+    .footer-end .col-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-end .col-2 img {
+        text-align: center;
+        margin: 0 .9em;
+    }
+
+}

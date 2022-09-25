@@ -1,0 +1,145 @@
+.mining {
+    /* background-image: url(/crypto-imageS/); */
+    background-color: #2B076E;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 6em;
+}
+
+.mining .main-col {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #3671E9;
+    border-radius: 16px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 2em;
+}
+
+.mining h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.mining p {
+    max-width: 348px;
+    color: #fff;
+}
+
+.mining .col-1 {
+    width: 50%;
+}
+
+.mining .col-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.main-col input {
+    border: 0;
+    mix-blend-mode: normal;
+    max-width: 403px;
+    text-align: inherit;
+    padding: 1.3em 1.3em 1.3em 0;
+    border-bottom: 2px solid #E0E0E0;
+    transform: scale(1);
+    transition: transform 250ms;
+    background: none;
+    width: 70%;
+}
+
+.main-col input::placeholder {
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+.main-col button {
+    color: #0D0D2B;
+}
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    .mining {
+        /* background-image: url(/crypto-imageS/); */
+        background-color: #2B076E;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5em 0 6em;
+    }
+
+    .mining .main-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        background: #3671E9;
+        border-radius: 16px;
+        max-width: 1200px;
+        width: 100%;
+        padding: 2em;
+    }
+
+    .mining h3 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #fff;
+    }
+
+    .mining p {
+        max-width: 348px;
+        color: #fff;
+    }
+
+    .mining .col-1 {
+        width: 100%;
+        padding-bottom: 3em;
+    }
+
+    .mining .col-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mining .main-col input {
+        border: 0;
+        mix-blend-mode: normal;
+        max-width: 403px;
+        text-align: inherit;
+        padding: 1.3em 1.3em 1.3em 0;
+        border-bottom: 2px solid #E0E0E0;
+        transform: scale(1);
+        transition: transform 250ms;
+        background: none;
+        width: 70%;
+    }
+
+    .mining .main-col input::placeholder {
+        color: #fff;
+        letter-spacing: .05em;
+    }
+
+    .mining .main-col button {
+        color: #0D0D2B;
+    }
+
+
+}

@@ -1,0 +1,66 @@
+/* STATISTICS */
+.statistics {
+    /* background-image: url(/crypto-imageS/); */
+    background-color: #2B076E;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 0;
+}
+
+.statistics-main-col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.statistics-main-col .col-1 {
+    width: 45%;
+}
+
+.statistics-main-col .col-2 {
+    width: 50%
+}
+
+.statistics-main-col .paragraph {
+    max-width: 410px;
+    padding-bottom: 1.75em;
+}
+
+.statistics-main-col h2 {
+    text-align: left;
+}
+
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    /* STATISTICS */
+
+    .statistics {
+        padding: 1em 0 0;
+    }
+
+    .statistics-main-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .statistics-main-col .col-1 {
+        width: 100%;
+    }
+
+    .statistics-main-col .col-2 {
+        width: 100%;
+        padding-bottom: 3em;
+    }
+
+}

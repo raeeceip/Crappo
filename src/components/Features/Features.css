@@ -1,0 +1,152 @@
+/* FEATURES START */
+.features {
+    /* background-image: url(/crypto-imageS/); */
+    background-color: #2B076E;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 0;
+}
+
+.features-main-col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.features-main-col .col-1 {
+    width: 45%;
+}
+
+.features-main-col .col-2 {
+    width: 50%
+}
+
+.features h2 {
+    max-width: 800px;
+    text-align: center;
+}
+
+.features .headingTitle {
+    margin: 0;
+    padding: 0;
+    line-height: .5em;
+    color: #FFFFFF;
+}
+
+.features .paragraphtTitle {
+    margin: 0;
+    padding: 0;
+    line-height: 3.75em;
+}
+
+.features-main-col .paragraph {
+    max-width: 410px;
+    padding-bottom: 1.75em;
+}
+
+.intro-col-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 3.5em;
+    align-items: center;
+}
+
+.features-main-col h2 {
+    text-align: left;
+}
+
+/* FEATURES */
+
+
+@media (max-width:800px) {
+    html {
+        font-size: .8rem;
+    }
+
+    /* FEATURES */
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0 0;
+    }
+
+    .features-main-col {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 7em;
+        order: 2;
+    }
+
+    .features-main-col .col-1 {
+        width: 100%;
+        padding-bottom: 6em;
+    }
+
+    .features-main-col .col-2 {
+        width: 100%;
+    }
+
+    .features .headingTitle {
+        margin: 0;
+        padding: 0;
+        line-height: .5em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .features .paragraphtTitle {
+        margin: 0;
+        padding: 0;
+        line-height: 3.75em;
+        text-align: center;
+    }
+
+    .features-main-col .paragraph {
+        max-width: 410px;
+        padding-bottom: 1.75em;
+    }
+
+    .features h2 {
+        padding-top: 2em ;
+    }
+
+    .intro-col-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+        order: 1;
+    }
+
+    .icon-img-col {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        padding: 1em;
+        text-align: center;
+        display: flex;
+        margin-right: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .icon-img-col img {
+        margin: 0;
+        padding: 0;
+    }
+
+}
