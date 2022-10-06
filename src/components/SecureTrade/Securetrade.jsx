@@ -1,10 +1,13 @@
 import React from "react";
-import { useState } from "react";
+import { useEffect } from "react";
 import "./Securetrade.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Securetrade() {
-	const [cardOne, setCardOne] = useState("");
-
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<section id="securetrade" className="secureTrade">
 			<div className="container container-flex">
@@ -15,8 +18,12 @@ function Securetrade() {
 						</h2>
 					</div>
 					<div className="col">
-						<div className="inner-col-1 blueStyle" id="card-one">
-							<img src="bitcon.png" loading="lazy" />
+						<div
+							className="inner-col-1 whiteStyle"
+							data-aos="fade-up"
+							id="card-one"
+						>
+							<img src="bitcon.png" alt="bitcoin" loading="lazy" />
 							<h2>
 								Bitcoin<span className="shorthand">BTC</span>
 							</h2>
@@ -29,8 +36,12 @@ function Securetrade() {
 							</button>
 						</div>
 
-						<div className={`inner-col-1 whiteStyle ${cardOne}`} id="card-two">
-							<img src="ethereum.png" loading="lazy" />
+						<div
+							className="inner-col-1 whiteStyle"
+							data-aos="fade-up"
+							id="card-two"
+						>
+							<img src="ethereum.png" alt="ethereum" loading="lazy" />
 							<h2>
 								Ethereum<span className="shorthand">ETH</span>
 							</h2>
@@ -42,8 +53,12 @@ function Securetrade() {
 								Start Mining <span className="btn-arrow">{">"}</span>
 							</button>
 						</div>
-						<div className="inner-col-1 whiteStyle" id="card-three">
-							<img src="litecoin.png" loading="lazy" />
+						<div
+							className="inner-col-1  whiteStyle"
+							data-aos="fade-up"
+							id="card-three"
+						>
+							<img src="litecoin.png" alt="litecoin" loading="lazy" />
 							<h2>
 								Litecoin<span className="shorthand">LTC</span>
 							</h2>

@@ -1,6 +1,4 @@
 import "./App.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import React,{useEffect} from "react";
 import Earnings from "./components/Earnings/Earnings";
 import Features from "./components/Features/Features";
@@ -14,17 +12,15 @@ import Statistics from "./components/Statitics/Statitics";
 import Whycrap from "./components/WhyCrap/Whycrappo";
 
 function App() {
-  useEffect(() => {
-    AOS.init();
-  }, [])
+
   return (
     <div className="App">
-      <Navbar data-aos="fade-up" />
+      <Navbar />
       <Header />
       <Whycrap />
-      <Earnings data-aos="fade-left"/>
-      <Features data-aos="fade-up" />
-      <Statistics data-aos="fade-up" />
+      <Earnings/>
+      <Features />
+      <Statistics  />
       <Securetrade />
       <Profit />
       <Mining />
